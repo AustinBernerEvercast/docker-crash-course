@@ -13,4 +13,11 @@ services:
     container_name: myblog_c
     ports:
       - '3000:3000'
+    # Mac only
+    # volumes:
+    #   - ./api:/app
+    #   - /app/node_modules   
+
+    # Windows only   
     stdin_open: true
+    tty: true
