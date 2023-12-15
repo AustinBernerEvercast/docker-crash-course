@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "python": "^0.0.4"
+  },
+  "scripts": {
+    "start": "node sample.py"
+  },
+  "type": "module"
+}
